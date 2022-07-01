@@ -1,3 +1,6 @@
+body{
+    background-color:aliceblue ;
+}
 .main{
     margin: auto;
     background: black;
@@ -31,6 +34,7 @@ li:hover{
     height: 50px;
     background: black;
     cursor: pointer;
+    display: block;
 }
 li:hover a{
     border:3px pink;
@@ -44,8 +48,10 @@ table, th, td {
     height: 30px;
 }
 div{
-    padding: 200px;
-    padding-bottom: 40px;
+    width: 1200px;
+    padding: 350px;
+    padding-bottom: 30px;
+    padding-left: 160px;
 }
 td{
     text-align: center;
@@ -59,4 +65,15 @@ td{
 .tbl2{
     margin-top: 0px;
     padding-top: 0%;
+}
+.sub{
+    display: none;
+    color: azure;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;  
+}
+li:hover .sub{
+    display:block;
+    margin-top: 0px;
 }
