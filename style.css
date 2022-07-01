@@ -72,8 +72,16 @@ td{
     text-decoration: none;
     font-size: x-large;
     font-weight: bold;  
+    margin-left: 0px;
+    border:0px;
 }
 li:hover .sub{
     display:block;
     margin-top: 0px;
+}
+.sub2{
+    margin-top: 24px;
+    margin-left: 0px;
+    border:0px;
+    
 }
